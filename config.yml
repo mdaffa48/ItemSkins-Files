@@ -1,0 +1,30 @@
+commandAliases:
+  itemskins:
+    - "itemskin"
+    - "is"
+    - "iskins"
+  skin:
+    - "skins"
+
+# Configuration Explanation
+# (skinPreview) Options that will be used related to skin previewing
+#   (duration) - the duration that the preview last
+#   (rotationSpeed) - the rotation speed of the floating items
+#   (eulerAngle) - the xyz angle to angle the floating items (do not edit it if you don't know what it is)
+#     (x) - the X rotation
+#     (y) - the Y rotation
+#     (z) - the Z rotation
+skinPreview:
+  duration: 5
+  rotationSpeed: 6
+  eulerAngle:
+    x: 261
+    y: 278
+    z: 0
+
+messages:
+  prefix: "&e[Skins]"
+  noPermission: "{prefix} &cYou don't have enough permission!"
+  reload: "{prefix} &aYou have reloaded the configuration!"
+  help:
+    - "asdasdasd"

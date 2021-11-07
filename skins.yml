@@ -1,0 +1,73 @@
+NETHERITE_SWORD:
+  blazeSword:
+    customModelData: 1
+    permission: "itemskins.sword.blaze"
+    available:
+      name: "&eBlaze Sword &a(Unlocked)"
+      glowing: true
+      lore:
+        - "&7You have unlocked this skin!"
+        - ""
+        - "  &6&l• &eRarity: &9&lRARE"
+        - ""
+        - "&eLeft-click to apply the skin"
+        - "&eRight-click to preview the skin"
+    unAvailable:
+      name: "&eBlaze Sword &c(Locked)"
+      glowing: false
+      lore:
+        - "&cUnlock this skin by purchasing it"
+        - "&con our store or open a crate!"
+        - "&cStore: &ehttps://www.store.com"
+        - ""
+        - "  &6&l• &eRarity: &9&lRARE"
+        - ""
+        - "&eRight-click to preview the skin"
+  prismarineSword:
+    customModelData: 2
+    permission: "itemskins.sword.prismarine"
+    available:
+      name: "&ePrismarine Sword &a(Unlocked)"
+      glowing: true
+      lore:
+        - "&7You have unlocked this skin!"
+        - ""
+        - "  &6&l• &eRarity: &7&lCOMMON"
+        - ""
+        - "&eLeft-click to apply the skin"
+        - "&eRight-click to preview the skin"
+    unAvailable:
+      name: "&ePrismarine Sword &c(Locked)"
+      glowing: false
+      lore:
+        - "&cUnlock this skin by purchasing it"
+        - "&con our store or open a crate!"
+        - "&cStore: &ehttps://www.store.com"
+        - ""
+        - "  &6&l• &eRarity: &7&lCOMMON"
+        - ""
+        - "&eRight-click to preview the skin"
+  saberLightSword:
+    customModelData: 3
+    permission: "itemskins.sword.saberlight"
+    available:
+      name: "&eSaberlight Sword &a(Unlocked)"
+      glowing: true
+      lore:
+        - "&7You have unlocked this skin!"
+        - ""
+        - "  &6&l• &eRarity: &d&lMYTHICAL"
+        - ""
+        - "&eLeft-click to apply the skin"
+        - "&eRight-click to preview the skin"
+    unAvailable:
+      name: "&eSaberlight Sword &c(Locked)"
+      glowing: false
+      lore:
+        - "&cUnlock this skin by purchasing it"
+        - "&con our store or open a crate!"
+        - "&cStore: &ehttps://www.store.com"
+        - ""
+        - "  &6&l• &eRarity: &d&lMYTHICAL"
+        - ""
+        - "&eRight-click to preview the skin"
