@@ -27,4 +27,6 @@ messages:
   noPermission: "{prefix} &cYou don't have enough permission!"
   reload: "{prefix} &aYou have reloaded the configuration!"
   help:
-    - "asdasdasd"
+    - "&e&lItemSkins &7- by aglerr"
+    - "&e/itemskins reload &7- reload the configuration"
+    - "&e/skins &7- open skin selector inventory"
