@@ -1,73 +1,181 @@
 NETHERITE_SWORD:
-  blazeSword:
+  darkMagic:
     customModelData: 1
-    permission: "itemskins.sword.blaze"
+    permission: "itemskins.sword.darkmagic"
     available:
-      name: "&eBlaze Sword &a(Unlocked)"
+      name: "&bDark Magic &a(Unlocked)"
       glowing: true
       lore:
         - "&7You have unlocked this skin!"
         - ""
-        - "  &6&l• &eRarity: &9&lRARE"
+        - "  &6&l• &eRarity: &d&lEPIC"
         - ""
-        - "&eLeft-click to apply the skin"
-        - "&eRight-click to preview the skin"
+        - "&aLeft-click to apply the skin"
+        - "&aRight-click to preview the skin"
     unAvailable:
-      name: "&eBlaze Sword &c(Locked)"
+      name: "&bDark Magic &c(Locked)"
       glowing: false
       lore:
         - "&cUnlock this skin by purchasing it"
         - "&con our store or open a crate!"
         - "&cStore: &ehttps://www.store.com"
         - ""
-        - "  &6&l• &eRarity: &9&lRARE"
+        - "  &6&l• &eRarity: &d&lEPIC"
         - ""
-        - "&eRight-click to preview the skin"
-  prismarineSword:
-    customModelData: 2
-    permission: "itemskins.sword.prismarine"
+        - "&aRight-click to preview the skin"
+
+NETHERITE_PICKAXE:
+  darkMagic:
+    customModelData: 1
+    permission: "itemskins.pickaxe.darkmagic"
     available:
-      name: "&ePrismarine Sword &a(Unlocked)"
+      name: "&bDark Magic &a(Unlocked)"
       glowing: true
       lore:
         - "&7You have unlocked this skin!"
         - ""
-        - "  &6&l• &eRarity: &7&lCOMMON"
+        - "  &6&l• &eRarity: &d&lEPIC"
         - ""
-        - "&eLeft-click to apply the skin"
-        - "&eRight-click to preview the skin"
+        - "&aLeft-click to apply the skin"
+        - "&aRight-click to preview the skin"
     unAvailable:
-      name: "&ePrismarine Sword &c(Locked)"
+      name: "&bDark Magic &c(Locked)"
       glowing: false
       lore:
         - "&cUnlock this skin by purchasing it"
         - "&con our store or open a crate!"
         - "&cStore: &ehttps://www.store.com"
         - ""
-        - "  &6&l• &eRarity: &7&lCOMMON"
+        - "  &6&l• &eRarity: &d&lEPIC"
         - ""
-        - "&eRight-click to preview the skin"
-  saberLightSword:
-    customModelData: 3
-    permission: "itemskins.sword.saberlight"
+        - "&aRight-click to preview the skin"
+
+NETHERITE_AXE:
+  darkMagic:
+    customModelData: 1
+    permission: "itemskins.axe.darkmagic"
     available:
-      name: "&eSaberlight Sword &a(Unlocked)"
+      name: "&bDark Magic &a(Unlocked)"
       glowing: true
       lore:
         - "&7You have unlocked this skin!"
         - ""
-        - "  &6&l• &eRarity: &d&lMYTHICAL"
+        - "  &6&l• &eRarity: &d&lEPIC"
         - ""
-        - "&eLeft-click to apply the skin"
-        - "&eRight-click to preview the skin"
+        - "&aLeft-click to apply the skin"
+        - "&aRight-click to preview the skin"
     unAvailable:
-      name: "&eSaberlight Sword &c(Locked)"
+      name: "&bDark Magic &c(Locked)"
       glowing: false
       lore:
         - "&cUnlock this skin by purchasing it"
         - "&con our store or open a crate!"
         - "&cStore: &ehttps://www.store.com"
         - ""
-        - "  &6&l• &eRarity: &d&lMYTHICAL"
+        - "  &6&l• &eRarity: &d&lEPIC"
         - ""
-        - "&eRight-click to preview the skin"
+        - "&aRight-click to preview the skin"
+
+NETHERITE_HOE:
+  darkMagic:
+    customModelData: 1
+    permission: "itemskins.hoe.darkmagic"
+    available:
+      name: "&bDark Magic &a(Unlocked)"
+      glowing: true
+      lore:
+        - "&7You have unlocked this skin!"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aLeft-click to apply the skin"
+        - "&aRight-click to preview the skin"
+    unAvailable:
+      name: "&bDark Magic &c(Locked)"
+      glowing: false
+      lore:
+        - "&cUnlock this skin by purchasing it"
+        - "&con our store or open a crate!"
+        - "&cStore: &ehttps://www.store.com"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aRight-click to preview the skin"
+
+NETHERITE_SHOVEL:
+  darkMagic:
+    customModelData: 1
+    permission: "itemskins.shovel.darkmagic"
+    available:
+      name: "&bDark Magic &a(Unlocked)"
+      glowing: true
+      lore:
+        - "&7You have unlocked this skin!"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aLeft-click to apply the skin"
+        - "&aRight-click to preview the skin"
+    unAvailable:
+      name: "&bDark Magic &c(Locked)"
+      glowing: false
+      lore:
+        - "&cUnlock this skin by purchasing it"
+        - "&con our store or open a crate!"
+        - "&cStore: &ehttps://www.store.com"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aRight-click to preview the skin"
+
+BOW:
+  darkMagic:
+    customModelData: 1
+    permission: "itemskins.bow.darkmagic"
+    available:
+      name: "&bDark Magic &a(Unlocked)"
+      glowing: true
+      lore:
+        - "&7You have unlocked this skin!"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aLeft-click to apply the skin"
+        - "&aRight-click to preview the skin"
+    unAvailable:
+      name: "&bDark Magic &c(Locked)"
+      glowing: false
+      lore:
+        - "&cUnlock this skin by purchasing it"
+        - "&con our store or open a crate!"
+        - "&cStore: &ehttps://www.store.com"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aRight-click to preview the skin"
+
+CROSSBOW:
+  darkMagic:
+    customModelData: 1
+    permission: "itemskins.crossbow.darkmagic"
+    available:
+      name: "&bDark Magic &a(Unlocked)"
+      glowing: true
+      lore:
+        - "&7You have unlocked this skin!"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aLeft-click to apply the skin"
+        - "&aRight-click to preview the skin"
+    unAvailable:
+      name: "&bDark Magic &c(Locked)"
+      glowing: false
+      lore:
+        - "&cUnlock this skin by purchasing it"
+        - "&con our store or open a crate!"
+        - "&cStore: &ehttps://www.store.com"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aRight-click to preview the skin"
