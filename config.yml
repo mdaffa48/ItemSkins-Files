@@ -1,10 +1,16 @@
 commandAliases:
   itemskins:
-    - "itemskin"
-    - "is"
-    - "iskins"
+  - 'itemskin'
+  - 'is'
+  - 'iskins'
   skin:
-    - "skins"
+  - 'skins'
+
+# Configuration Explanation
+# (options)
+#   (removeSkinNoPermission) Should we remove item skins if the player doesn't have permission to use that skin?
+options:
+  removeSkinNoPermission: false
 
 # Configuration Explanation
 # (skinPreview) Options that will be used related to skin previewing
@@ -23,10 +29,10 @@ skinPreview:
     z: 0
 
 messages:
-  prefix: "&e[Skins]"
-  noPermission: "{prefix} &cYou don't have enough permission!"
-  reload: "{prefix} &aYou have reloaded the configuration!"
+  prefix: '&e[Skins]'
+  noPermission: '{prefix} &cYou don''t have enough permission!'
+  reload: '{prefix} &aYou have reloaded the configuration!'
   help:
-    - "&e&lItemSkins &7- by aglerr"
-    - "&e/itemskins reload &7- reload the configuration"
-    - "&e/skins &7- open skin selector inventory"
+  - '&e&lItemSkins &7- by aglerr'
+  - '&e/itemskins reload &7- reload the configuration'
+  - '&e/skins &7- open skin selector inventory'
