@@ -23,6 +23,19 @@ NETHERITE_SWORD:
         - "  &6&l• &eRarity: &d&lEPIC"
         - ""
         - "&aRight-click to preview the skin"
+    physical:
+      material: LEATHER
+      customModelData: 7601
+      name: "&bDark Magic Skin"
+      glowing: false
+      lore:
+        - "&7A sword that can only be achieved"
+        - "&7by dark magic."
+        - ""
+        - "  &fType: &bNetherite Sword"
+        - ""
+        - "&aDrag and drop this skin to netherite"
+        - "&asword to apply the skin!"
 
 NETHERITE_PICKAXE:
   darkMagic:
@@ -49,6 +62,19 @@ NETHERITE_PICKAXE:
         - "  &6&l• &eRarity: &d&lEPIC"
         - ""
         - "&aRight-click to preview the skin"
+    physical:
+      material: LEATHER
+      customModelData: 7602
+      name: "&bDark Magic Skin"
+      glowing: false
+      lore:
+        - "&7A sword that can only be achieved"
+        - "&7by dark magic."
+        - ""
+        - "  &fType: &bNetherite Pickaxe"
+        - ""
+        - "&aDrag and drop this skin to netherite"
+        - "&asword to apply the skin!"
 
 NETHERITE_AXE:
   darkMagic:
@@ -75,32 +101,19 @@ NETHERITE_AXE:
         - "  &6&l• &eRarity: &d&lEPIC"
         - ""
         - "&aRight-click to preview the skin"
-
-NETHERITE_HOE:
-  darkMagic:
-    customModelData: 1
-    permission: "itemskins.hoe.darkmagic"
-    available:
-      name: "&bDark Magic &a(Unlocked)"
-      glowing: true
-      lore:
-        - "&7You have unlocked this skin!"
-        - ""
-        - "  &6&l• &eRarity: &d&lEPIC"
-        - ""
-        - "&aLeft-click to apply the skin"
-        - "&aRight-click to preview the skin"
-    unAvailable:
-      name: "&bDark Magic &c(Locked)"
+    physical:
+      material: LEATHER
+      customModelData: 7603
+      name: "&bDark Magic Skin"
       glowing: false
       lore:
-        - "&cUnlock this skin by purchasing it"
-        - "&con our store or open a crate!"
-        - "&cStore: &ehttps://www.store.com"
+        - "&7A sword that can only be achieved"
+        - "&7by dark magic."
         - ""
-        - "  &6&l• &eRarity: &d&lEPIC"
+        - "  &fType: &bNetherite Axe"
         - ""
-        - "&aRight-click to preview the skin"
+        - "&aDrag and drop this skin to netherite"
+        - "&asword to apply the skin!"
 
 NETHERITE_SHOVEL:
   darkMagic:
@@ -127,6 +140,58 @@ NETHERITE_SHOVEL:
         - "  &6&l• &eRarity: &d&lEPIC"
         - ""
         - "&aRight-click to preview the skin"
+    physical:
+      material: LEATHER
+      customModelData: 7604
+      name: "&bDark Magic Skin"
+      glowing: false
+      lore:
+        - "&7A sword that can only be achieved"
+        - "&7by dark magic."
+        - ""
+        - "  &fType: &bNetherite Shovel"
+        - ""
+        - "&aDrag and drop this skin to netherite"
+        - "&asword to apply the skin!"
+
+NETHERITE_HOE:
+  darkMagic:
+    customModelData: 1
+    permission: "itemskins.hoe.darkmagic"
+    available:
+      name: "&bDark Magic &a(Unlocked)"
+      glowing: true
+      lore:
+        - "&7You have unlocked this skin!"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aLeft-click to apply the skin"
+        - "&aRight-click to preview the skin"
+    unAvailable:
+      name: "&bDark Magic &c(Locked)"
+      glowing: false
+      lore:
+        - "&cUnlock this skin by purchasing it"
+        - "&con our store or open a crate!"
+        - "&cStore: &ehttps://www.store.com"
+        - ""
+        - "  &6&l• &eRarity: &d&lEPIC"
+        - ""
+        - "&aRight-click to preview the skin"
+    physical:
+      material: LEATHER
+      customModelData: 7605
+      name: "&bDark Magic Skin"
+      glowing: false
+      lore:
+        - "&7A sword that can only be achieved"
+        - "&7by dark magic."
+        - ""
+        - "  &fType: &bNetherite Hoe"
+        - ""
+        - "&aDrag and drop this skin to netherite"
+        - "&asword to apply the skin!"
 
 BOW:
   darkMagic:
@@ -153,6 +218,19 @@ BOW:
         - "  &6&l• &eRarity: &d&lEPIC"
         - ""
         - "&aRight-click to preview the skin"
+    physical:
+      material: LEATHER
+      customModelData: 7606
+      name: "&bDark Magic Skin"
+      glowing: false
+      lore:
+        - "&7A sword that can only be achieved"
+        - "&7by dark magic."
+        - ""
+        - "  &fType: &bBow"
+        - ""
+        - "&aDrag and drop this skin to netherite"
+        - "&asword to apply the skin!"
 
 CROSSBOW:
   darkMagic:
@@ -179,3 +257,16 @@ CROSSBOW:
         - "  &6&l• &eRarity: &d&lEPIC"
         - ""
         - "&aRight-click to preview the skin"
+    physical:
+      material: LEATHER
+      customModelData: 7607
+      name: "&bDark Magic Skin"
+      glowing: false
+      lore:
+        - "&7A sword that can only be achieved"
+        - "&7by dark magic."
+        - ""
+        - "  &fType: &bCrossbow"
+        - ""
+        - "&aDrag and drop this skin to netherite"
+        - "&asword to apply the skin!"
