@@ -1,10 +1,10 @@
 commandAliases:
   itemskins:
-  - 'itemskin'
-  - 'is'
-  - 'iskins'
+    - "itemskin"
+    - "is"
+    - "iskins"
   skin:
-  - 'skins'
+    - "skins"
 
 # Configuration Explanation
 # (options)
@@ -28,11 +28,26 @@ skinPreview:
     y: 278
     z: 0
 
+skinRemover:
+  material: LEATHER
+  customModelData: 7608
+  name: "&eSkin Remover"
+  glowing: false
+  lore:
+    - "&7Drag & Drop this item to the"
+    - "&7item that has skin!"
+
 messages:
-  prefix: '&e[Skins]'
-  noPermission: '{prefix} &cYou don''t have enough permission!'
-  reload: '{prefix} &aYou have reloaded the configuration!'
+  prefix: "&e[Skins]"
+  noPermission: "{prefix} &cYou don't have enough permission!"
+  reload: "{prefix} &aYou have reloaded the configuration!"
+  playerNotFound: "{prefix} &cThe player is not online!"
+  mustInt: "{prefix} &cThe amount must be a number/integer!"
+  materialNotFound: "{prefix} &cThere is no skin with that material!"
+  skinNotFound: "{prefix} &cThere is no skin with that name!"
+  itemHasSkin: "{prefix} &cThat item already have a skin!"
+  itemNoSkin: "{prefix} &cThat item doesn't have any skin!"
   help:
-  - '&e&lItemSkins &7- by aglerr'
-  - '&e/itemskins reload &7- reload the configuration'
-  - '&e/skins &7- open skin selector inventory'
+    - "&e&lItemSkins &7- by aglerr"
+    - "&e/itemskins reload &7- reload the configuration"
+    - "&e/skins &7- open skin selector inventory"
