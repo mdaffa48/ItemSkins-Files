@@ -1,0 +1,61 @@
+# The material of the skin
+material: netherite_shovel
+
+# The custom model data of the texture
+custom-model-data: 1
+
+# The permission to use the skin
+permission: "itemskins.shovel.dark_magic"
+
+# List of required data that will be used for
+# the preview skin system
+#
+# Read more about this feature on our wiki!
+preview-skin:
+  type: RIGHT_ARM
+  duration: 5
+  eulerAngle:
+    x: 261
+    y: 278
+    z: 0
+
+# This item will be used when player are able to use the skin
+# e.g: has permission to use
+available-item:
+  material: "netherite_shovel"
+  display-name: "&dDark Magic &a(Unlocked)"
+  custom-model-data: 1
+  glowing: false
+  lore:
+    - "&7You have unlocked this skin!"
+    - ""
+    - "&aLeft-click to apply the skin"
+    - "&aRight-click to preview the skin"
+
+# This item will be used when player are not able to use the skin
+# e.g: doesn't have permission to use
+unavailable-item:
+  material: "netherite_shovel"
+  display-name: "&dDark Magic &c(Locked)"
+  custom-model-data: 1
+  glowing: false
+  lore:
+    - "&cUnlock this skin by purchasing it"
+    - "&con our store or open a crate!"
+    - "&cStore: &ehttps://www.store.com"
+    - ""
+    - "&aRight-click to preview the skin"
+
+# This item will be used for the physical item skin
+# Read more about physical item skin on our wiki!
+physical-item:
+  material: "leather"
+  display-name: "&dDark Magic Skin"
+  custom-model-data: 7604
+  glowing: true
+  lore:
+    - "&7A sword that can only be achieved"
+    - "&7by dark magic."
+    - ""
+    - "&aDrag and drop this skin to &dnetherite"
+    - "&dshovel &ato apply the skin!"

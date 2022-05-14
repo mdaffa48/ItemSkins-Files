@@ -1,11 +1,11 @@
 # The material of the skin
-material: netherite_sword
+material: netherite_hoe
 
 # The custom model data of the texture
 custom-model-data: 1
 
 # The permission to use the skin
-permission: "itemskins.sword.dark_magic"
+permission: "itemskins.hoe.dark_magic"
 
 # List of required data that will be used for
 # the preview skin system
@@ -22,7 +22,7 @@ preview-skin:
 # This item will be used when player are able to use the skin
 # e.g: has permission to use
 available-item:
-  material: "netherite_sword"
+  material: "netherite_hoe"
   display-name: "&dDark Magic &a(Unlocked)"
   custom-model-data: 1
   glowing: false
@@ -35,7 +35,7 @@ available-item:
 # This item will be used when player are not able to use the skin
 # e.g: doesn't have permission to use
 unavailable-item:
-  material: "netherite_sword"
+  material: "netherite_hoe"
   display-name: "&dDark Magic &c(Locked)"
   custom-model-data: 1
   glowing: false
@@ -51,11 +51,11 @@ unavailable-item:
 physical-item:
   material: "leather"
   display-name: "&dDark Magic Skin"
-  custom-model-data: 7602
+  custom-model-data: 7605
   glowing: true
   lore:
     - "&7A sword that can only be achieved"
     - "&7by dark magic."
     - ""
     - "&aDrag and drop this skin to &dnetherite"
-    - "&dsword &ato apply the skin!"
+    - "&dhoe &ato apply the skin!"
