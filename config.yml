@@ -1,37 +1,20 @@
-commandAliases:
+commands-aliases:
   itemskins:
     - "itemskin"
     - "is"
     - "iskins"
-  skin:
-    - "skins"
 
 # Configuration Explanation
 # (options)
-#   (removeSkinNoPermission) Should we remove item skins if the player doesn't have permission to use that skin?
+#   (remove-skin-no-permission) Should we remove item skins if the player doesn't have permission to use that skin?
 options:
-  removeSkinNoPermission: false
+  remove-skin-no-permission: false
 
-# Configuration Explanation
-# (skinPreview) Options that will be used related to skin previewing
-#   (duration) - the duration that the preview last
-#   (rotationSpeed) - the rotation speed of the floating items
-#   (eulerAngle) - the xyz angle to angle the floating items (do not edit it if you don't know what it is)
-#     (x) - the X rotation
-#     (y) - the Y rotation
-#     (z) - the Z rotation
-skinPreview:
-  duration: 5
-  rotationSpeed: 6
-  eulerAngle:
-    x: 261
-    y: 278
-    z: 0
-
-skinRemover:
+# The skin remover item details
+skin-remover:
   material: LEATHER
   customModelData: 7608
-  name: "&eSkin Remover"
+  display-name: "&eSkin Remover"
   glowing: false
   lore:
     - "&7Drag & Drop this item to the"
@@ -50,4 +33,6 @@ messages:
   help:
     - "&e&lItemSkins &7- by aglerr"
     - "&e/itemskins reload &7- reload the configuration"
+    - "&e/itemskins physical (player) (material) (skin-name) [amount]"
+    - "&e/itemskins remover (player) [amount]"
     - "&e/skins &7- open skin selector inventory"

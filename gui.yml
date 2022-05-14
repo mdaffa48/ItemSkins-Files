@@ -1,0 +1,109 @@
+# The title of the gui
+title: "&8Skin Selector"
+# The size of the gui
+size: 45
+
+# The list of slots that's gonna be used to shows list of skins on the inventory
+skin-slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34]
+
+# This item will be used when the gui has multiple pages and have the next page
+next-button:
+  material: "head;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRiZThhZWVjMTE4NDk2OTdhZGM2ZmQxZjE4OWIxNjY0MmRmZjE5ZjI5NTVjMDVkZWFiYTY4YzlkZmYxYmUifX19"
+  display-name: "&aNext Page"
+  glowing: false
+  custom-model-data: 0
+  slots: [ 42 ]
+  lore:
+    - "&7Page {currentPage} out of {totalPage}"
+    - "&7Proceed to the next page!"
+
+# This item will be used when the gui has multiple pages and have the previous page
+previous-button:
+  material: "head;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYyNTkwMmIzODllZDZjMTQ3NTc0ZTQyMmRhOGY4ZjM2MWM4ZWI1N2U3NjMxNjc2YTcyNzc3ZTdiMWQifX19"
+  display-name: "&cPrevious Page"
+  glowing: false
+  custom-model-data: 0
+  slots: [ 38 ]
+  lore:
+    - "&7Page {currentPage} out of {totalPage}"
+    - "&7Proceed to the previous page!"
+
+# Indicator item will be used when player have selected an item from their
+# inventory or not, If player hasn't chosen anything, the (no-item-selected) item
+# will be used otherwise (item-selected) will be used
+#
+# Note: the material for the (item-selected) will be automatically selected
+indicator-item:
+  no-item-selected:
+    material: RED_STAINED_GLASS_PANE
+    display-name: "&aPlease select an item from your inventory!"
+    glowing: false
+    lore:
+      - "&7Click an item in your inventory to see"
+      - "&7all of the skins available for that item."
+  item-selected:
+    display-name: "&aFound {amount} skins for this item!"
+    glowing: true
+    lore:
+      - "&7You owned &a{owned} &7out of &a{amount} &7skins"
+      - "&7for this item type!"
+      - ""
+      - "&7Unlock more skins by purchasing it on"
+      - "&7our store at: www.serverstore.com"
+
+# Filter item will be used for the filter system, when player click
+# this item, it will change the filter
+filter-item:
+  show-all-skins:
+    material: HOPPER
+    display-name: "&bSkins Filter"
+    glowing: true
+    lore:
+      - "&7Filter the skins changer inventory"
+      - "&7by clicking this item."
+      - ""
+      - "&a• Show All Skins &7(Selected)"
+      - "&7• Show Owned Skins"
+      - ""
+      - "&aClick to change the filter!"
+  show-owned-skins:
+    material: HOPPER
+    display-name: "&bSkins Filter"
+    glowing: true
+    lore:
+      - "&7Filter the skins changer inventory"
+      - "&7by clicking this item."
+      - ""
+      - "&7• Show All Skins"
+      - "&a• Show Owned Skins &7(Selected)"
+      - ""
+      - "&aClick to change the filter!"
+
+# List of additional items that's going to be added to the inventory
+# The type will determine the item's behavior on click and perhaps the item display too
+items:
+  skin-indicator:
+    type: INDICATOR
+    slots: [ 4 ]
+  filter-item:
+    type: FILTER
+    slots: [ 36 ]
+  clear-skin:
+    type: CLEAR_SKIN
+    material: BARRIER
+    display-name: "&cClear Skin"
+    customModelData: 0
+    glowing: false
+    slots: [ 40 ]
+    lore:
+      - "&7Clear your item skin to the default"
+      - "&7skin for that item!"
+      - ""
+      - "&c&o&nThis process cannot be reversed"
+  filler:
+    type: DUMMY
+    material: BLACK_STAINED_GLASS_PANE
+    display-name: "&f"
+    customModelData: 0
+    glowing: false
+    slots: [0, 1, 2, 3, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 37, 38, 39, 41, 42, 43, 44]
