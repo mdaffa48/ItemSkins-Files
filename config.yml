@@ -7,13 +7,20 @@ commands-aliases:
 # Configuration Explanation
 # (options)
 #   (remove-skin-no-permission) Should we remove item skins if the player doesn't have permission to use that skin?
+#   (load-old-config) Should we load all skins from the old config (skins.yml)?
 options:
   remove-skin-no-permission: false
+
+# List of blacklisted slimefun items
+# If item is listed in here, the item cannot be skinned
+# (all texts must be on lowercases)
+blacklisted-slimefun-items:
+  - "sword_of_beheading"
 
 # The skin remover item details
 skin-remover:
   material: LEATHER
-  customModelData: 7608
+  custom-model-data: 7608
   display-name: "&eSkin Remover"
   glowing: false
   lore:
@@ -30,6 +37,7 @@ messages:
   skinNotFound: "{prefix} &cThere is no skin with that name!"
   itemHasSkin: "{prefix} &cThat item already have a skin!"
   itemNoSkin: "{prefix} &cThat item doesn't have any skin!"
+  itemBlacklisted: "{prefix} &cThis item cannot be skinned!"
   help:
     - "&e&lItemSkins &7- by aglerr"
     - "&e/itemskins reload &7- reload the configuration"
