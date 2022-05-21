@@ -5,7 +5,7 @@ material: netherite_sword
 custom-model-data: 2
 
 # The permission to use the skin
-permission: "itemskins.sword.excalibur"
+permission: "itemskins.sword.darksaber"
 
 # List of required data that will be used for
 # the preview skin system
