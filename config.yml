@@ -3,13 +3,24 @@ commands-aliases:
     - "itemskin"
     - "is"
     - "iskins"
+    - "skin"
+    - "skins"
 
 # Configuration Explanation
 # (options)
 #   (remove-skin-no-permission) Should we remove item skins if the player doesn't have permission to use that skin?
-#   (load-old-config) Should we load all skins from the old config (skins.yml)?
+#   (remove-skin-except-physical-skin) Should player able to use skins even though they do not have the permission
+#                                       as long as the item is skinned with physical skin?
+#                                       (remove-skin-no-permission option should be enabled)
+#   (preview-skin) Should we enable skin preview? (Enable or disable right click to preview skins from the GUI)
+#   (physical-require-permission) Should player need skin permission to use the physical skin?
 options:
   remove-skin-no-permission: false
+  remove-skin-except-physical-skin: false
+  preview-skin: true
+  physical-require-permission: true
+  # Show skins on player's hand on skins menu open
+  show-hand-skin: false
 
 # List of blacklisted slimefun items
 # If item is listed in here, the item cannot be skinned
@@ -38,8 +49,10 @@ messages:
   itemHasSkin: "{prefix} &cThat item already have a skin!"
   itemNoSkin: "{prefix} &cThat item doesn't have any skin!"
   itemBlacklisted: "{prefix} &cThis item cannot be skinned!"
+  stackable-skin-tries: "{prefix} &cYou can only do this to one item at a time!"
+  preview-disabled: "{prefix} &cSkin preview is disabled on this server!"
   help:
-    - "&e&lItemSkins &7- by aglerr"
+    - "&e&lItemSkins &7- by aglerr#9849"
     - "&e/itemskins reload &7- reload the configuration"
     - "&e/itemskins physical (player) (material) (skin-name) [amount]"
     - "&e/itemskins remover (player) [amount]"

@@ -1,12 +1,9 @@
 # The material of the skin
 material:
-  - "pickaxes"
-
-# The custom model data of the texture
-custom-model-data: 1
+  - "helmets"
 
 # The permission to use the skin
-permission: "itemskins.pickaxe.dark_magic"
+permission: "itemskins.helmet.forest_helmet"
 
 # List of required data that will be used for
 # the preview skin system
@@ -23,10 +20,8 @@ preview-skin:
 # This item will be used when player are able to use the skin
 # e.g: has permission to use
 available-item:
-  material: "netherite_pickaxe"
-  display-name: "&dDark Magic &a(Unlocked)"
-  custom-model-data: 1
-  glowing: false
+  material: "nexo:forest_helmet"
+  display-name: "&aForest Helmet &a(Unlocked)"
   lore:
     - "&7You have unlocked this skin!"
     - ""
@@ -36,10 +31,8 @@ available-item:
 # This item will be used when player are not able to use the skin
 # e.g: doesn't have permission to use
 unavailable-item:
-  material: "netherite_pickaxe"
-  display-name: "&dDark Magic &c(Locked)"
-  custom-model-data: 1
-  glowing: false
+  material: "nexo:forest_helmet"
+  display-name: "&aForest Helmet &c(Locked)"
   lore:
     - "&cUnlock this skin by purchasing it"
     - "&con our store or open a crate!"
@@ -51,12 +44,9 @@ unavailable-item:
 # Read more about physical item skin on our wiki!
 physical-item:
   material: "leather"
-  display-name: "&dDark Magic Skin"
-  custom-model-data: 7602
+  display-name: "&aForest Helmet Skin"
+  custom-model-data: 7601
   glowing: true
   lore:
-    - "&7A sword that can only be achieved"
-    - "&7by dark magic."
-    - ""
-    - "&aDrag and drop this skin to &dnetherite"
-    - "&dpickaxe &ato apply the skin!"
+    - "&aDrag and drop this skin to &dany"
+    - "&dsword &ato apply the skin!"

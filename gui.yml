@@ -3,7 +3,7 @@ title: "&8Skin Selector"
 # The size of the gui
 size: 45
 
-# The list of slots that's gonna be used to shows list of skins on the inventory
+# The list of slots that's going to be used to shows list of skins on the inventory
 skin-slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34]
 
 # This item will be used when the gui has multiple pages and have the next page
@@ -106,4 +106,4 @@ items:
     display-name: "&f"
     customModelData: 0
     glowing: false
-    slots: [0, 1, 2, 3, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 37, 38, 39, 41, 42, 43, 44]
+    slots: [0, 1, 2, 3, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 37, 39, 41, 43, 44]

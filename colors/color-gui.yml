@@ -1,0 +1,227 @@
+# The title of the GUI
+title: "&f섈"
+
+# The size of the GUI
+size: 45
+
+# The material of the paint button
+paint-button-material: LEATHER_HORSE_ARMOR
+
+# The custom model data of paint button, the default one
+# will be the item with square model
+paint-button-cmd: 8005
+
+# Default cosmetics with default color will be previewed on this slot
+preview-slot: 28
+
+# Result slot is when you click the color, the slot will preview the
+# item with color that is selected
+result-slot: 34
+
+# The slots for the color slots, the slots will be used when you click
+# one of the color category, and it will show the available list of colors
+# on that slot.
+color-slots: [1, 2, 3, 4, 5, 6, 7]
+
+# This button will be used when the category has more than the size of color slots
+# the function of this button is to scroll between colors to the next colors
+nextButton:
+  material: PAPER
+  slot: 8
+  customModelData: 8006
+  name: "&aNext Color -->"
+  lore:
+    - "&8➡ Go to next color"
+
+# This button will be used when the category has more than the size of color slots
+# the function of this button is to scroll between colors to the previous colors
+previousButton:
+  material: PAPER
+  slot: 0
+  customModelData: 8005
+  name: "&c<-- Previous Color"
+  lore:
+    - "&8➡ Go to previous color"
+
+# These are all the color categories, when you click one of category on the
+# gui, the gui will show colors that is inside the categories, you can add custom
+# categories as you wish, to configure what colors inside each category
+# check down below!
+categories:
+  BLUE:
+    slot: 40
+    color:
+      red: 0
+      green: 69
+      blue: 183
+    name: "&7Blue Paint"
+    lore:
+      - "&8➡ Click to select"
+  GREEN:
+    slot: 32
+    color:
+      red: 121
+      green: 215
+      blue: 44
+    name: "&7Green Paint"
+    lore:
+      - "&8➡ Click to select"
+  LIGHT_BLUE:
+    slot: 41
+    color:
+      red: 35
+      green: 217
+      blue: 235
+    name: "&7Light Blue Paint"
+    lore:
+      - "&8➡ Click to select"
+  ORANGE:
+    slot: 22
+    color:
+      red: 250
+      green: 105
+      blue: 0
+    name: "&7Orange Paint"
+    lore:
+      - "&8➡ Click to select"
+  PINK:
+    slot: 30
+    color:
+      red: 255
+      green: 81
+      blue: 246
+    name: "&7Pink Paint"
+    lore:
+      - "&8➡ Click to select"
+  PURPLE:
+    slot: 39
+    color:
+      red: 158
+      green: 52
+      blue: 214
+    name: "&7Purple Paint"
+    lore:
+      - "&8➡ Click to select"
+  RED:
+    slot: 21
+    color:
+      red: 255
+      green: 0
+      blue: 0
+    name: "&7Red Paint"
+    lore:
+      - "&8➡ Click to select"
+  WHITE:
+    slot: 31
+    color:
+      red: 255
+      green: 255
+      blue: 255
+    name: "&7White Paint"
+    lore:
+      - "&8➡ Click to select"
+  YELLOW:
+    slot: 23
+    color:
+      red: 249
+      green: 185
+      blue: 15
+    name: "&7Yellow Paint"
+    lore:
+      - "&8➡ Click to select"
+
+# These are all the colors from the categories, you can add as many colors as you want
+# The format will be "r;g;b"
+# Note: the name of the category must be the same like above (case-sensitive)
+colors:
+  BLUE:
+    - "116;162;252"
+    - "95;97;225"
+    - "46;127;252"
+    - "0;69;183"
+    - "23;53;100"
+    - "72;71;124"
+    - "19;32;49"
+  GREEN:
+    - "121;215;44"
+    - "69;174;0"
+    - "53;109;15"
+    - "63;162;105"
+    - "101;132;80"
+    - "76;88;65"
+    - "23;43;9"
+  LIGHT_BLUE:
+    - "27;169;148"
+    - "35;217;235"
+    - "67;191;222"
+    - "86;141;157"
+    - "0;121;151"
+    - "57;78;84"
+    - "0;61;78"
+  ORANGE:
+    - "252;150;78"
+    - "211;129;97"
+    - "163;102;63"
+    - "234;129;0"
+    - "250;105;0"
+    - "156;62;0"
+    - "99;38;0"
+  PINK:
+    - "252;200;252"
+    - "252;144;252"
+    - "255;81;246"
+    - "183;0;172"
+    - "132;0;89"
+    - "106;32;102"
+    - "67;31;63"
+  PURPLE:
+    - "192;109;252"
+    - "158;52;214"
+    - "115;55;147"
+    - "105;0;157"
+    - "63;32;75"
+    - "57;31;96"
+    - "31;6;39"
+  RED:
+    - "128;0;0"
+    - "139;0;0"
+    - "165;42;42"
+    - "178;34;34"
+    - "220;20;60"
+    - "255;0;0"
+    - "255;99;71"
+    - "255;127;80"
+    - "205;92;92"
+    - "240;128;128"
+    - "233;150;122"
+    - "250;128;114"
+    - "255;69;0"
+  WHITE:
+    - "245;255;250"
+    - "112;128;144"
+    - "119;136;153"
+    - "176;196;222"
+    - "230;230;250"
+    - "255;250;240"
+    - "240;248;255"
+    - "248;248;255"
+    - "240;255;240"
+    - "255;255;240"
+    - "240;255;240"
+    - "255;255;255"
+    - "245;245;245"
+    - "220;220;220"
+    - "211;211;211"
+    - "192;192;192"
+    - "169;169;169"
+    - "128;128;128"
+    - "105;105;105"
+    - "0;0;0"
+  YELLOW:
+    - "252;240;182"
+    - "252;228;130"
+    - "252;215;78"
+    - "249;185;15"
+    - "173;161;98"
+    - "208;155;0"
+    - "156;116;0"

@@ -1,5 +1,6 @@
 # The material of the skin
-material: netherite_sword
+material:
+  - "swords"
 
 # The custom model data of the texture
 custom-model-data: 1

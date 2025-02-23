@@ -1,11 +1,6 @@
 # The material of the skin
 material:
-  - "netherite_sword"
-  - "diamond_sword"
-  - "iron_sword"
-  - "golden_sword"
-  - "stone_sword"
-  - "wooden_sword"
+  - "swords"
 
 # The custom model data of the texture
 custom-model-data: 3

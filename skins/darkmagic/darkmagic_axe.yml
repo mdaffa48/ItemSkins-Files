@@ -1,8 +1,9 @@
 # The material of the skin
-material: netherite_axe
+material:
+  - "axes"
 
 # The custom model data of the texture
-custom-model-data: 1
+custom-model-data: 2
 
 # The permission to use the skin
 permission: "itemskins.axe.dark_magic"
@@ -24,7 +25,7 @@ preview-skin:
 available-item:
   material: "netherite_axe"
   display-name: "&dDark Magic &a(Unlocked)"
-  custom-model-data: 1
+  custom-model-data: 2
   glowing: false
   lore:
     - "&7You have unlocked this skin!"
@@ -37,7 +38,7 @@ available-item:
 unavailable-item:
   material: "netherite_axe"
   display-name: "&dDark Magic &c(Locked)"
-  custom-model-data: 1
+  custom-model-data: 2
   glowing: false
   lore:
     - "&cUnlock this skin by purchasing it"
